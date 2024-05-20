@@ -1,0 +1,38 @@
+/*
+ * Correction2.cpp
+ *
+ *  Created on: May 19, 2024
+ *      Author: Jesus Borunda
+ */
+
+
+#include<iostream>
+/* #include <conio.h> not need to run below
+#include<conio.h>
+*/
+
+//Standard namespace declaration below
+using namespace std;
+
+//Main Function below looks good
+int main()
+{
+
+     double myMoney = 1000.50;  //this should be printed out
+
+
+     //Standard Output Statement
+     cout<<"Please be sure to correct all syntax errors in this program"<<endl;
+    //missing the arrows or known as the operator (<<) above
+
+    //missing closed quotation at the end of "program." below
+     cout<<"I have corrected all errors for this program." <<endl;
+
+    //missing the variable "myMoney" below
+     cout<<"The total amount of money available is = "<< myMoney  <<endl;
+
+     // Wait For Output Screen (added cin.get)
+    cin.get();
+     //Main Function return Statement
+     return 0;
+}
